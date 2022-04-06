@@ -1,7 +1,18 @@
-# direct inputs
-# source to this solution and code:
-# http://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game
-# http://www.gamespp.com/directx/directInputKeyboardScanCodes.html
+# Keys
+
+
+'''Feeding Key Presses to Reluctant Games in Python'''
+# Concept Source:
+# https://danieldusek.com/feeding-key-presses-to-reluctant-games-in-python.html
+
+# it mimics the hardware input of the keyboard this also helps you bypass that some games they have bot detection mechanisms when you're playing online games they detect if the keystrokes are coming from the keyboard or
+# from external third-party software 
+#scancode
+'''A scancode (or scan code) is the data that most 
+computer keyboards send to a computer to 
+report which keys have been pressed. A number,
+ or sequence of numbers, is assigned to each key 
+ on the keyboard.''' #source : https://gist.github.com/tracend/912308
 
 import ctypes
 import time
