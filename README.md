@@ -1,26 +1,34 @@
- Keys
-'''Feeding Key Presses to Reluctant Games in Python'''<br>
- Concept Source:
+# **OPCRSN** - 
+### Open-Convert-Remove-Search-Navigate
+<a2 ><b>Open</b></a2> - Cv capture the image/stream. <br>
+<b>Convert</b> - rgb to hsv, color_ extract one colour that we need (hue saturation value)<br>
+<b>Remove</b> -  noise from image (extra data that we do not need) Gaussian blur to the hsv converted image.<br>
+<b>Searching</b> - contours<br>
+<b>Navigate</b> - the car.<br>
+
+### Keys: file Source- directkey.py <br>
+![image](https://user-images.githubusercontent.com/67780238/161909396-d8182ac0-fd05-4706-aa31-c2e566209e68.png)
+
+**'''Feeding Key Presses to Reluctant Games in Python'''<br>
+ Concept Source:**
  https://danieldusek.com/feeding-key-presses-to-reluctant-games-in-python.html
  
- it mimics the hardware input of the keyboard this also helps you bypass that some games they have bot detection mechanisms when you're playing online games they detect if the keystrokes are coming from the keyboard or
- from external third-party software
+ It mimics the hardware input of the keyboard this also helps you bypass that some games they have bot detection mechanisms when you're playing online games they detect if the keystrokes are coming from the keyboard or from external third-party software
 scancode
 '''A scancode (or scan code) is the data that most
 computer keyboards send to a computer to
 report which keys have been pressed. A number,
  or sequence of numbers, is assigned to each key
- on the keyboard.''' #source : https://gist.github.com/tracend/912308
- 
+ on the keyboard.''' 
+ ### Source : https://gist.github.com/tracend/912308
+<br>
 
-
-
-#Mirroring camera;
-![image](https://user-images.githubusercontent.com/67780238/161907834-a9b1af44-0cce-468b-8305-02c2ba4eb583.png)
-
-#rgb to hsv
+## Mirroring camera
+![image](https://user-images.githubusercontent.com/67780238/161907834-a9b1af44-0cce-468b-8305-02c2ba4eb583.png) 
+<br>
+#rgb to hsv <br>
 ![image](https://user-images.githubusercontent.com/67780238/161907916-b4d646b6-f135-4a5a-8097-eb0f7c446a16.png)
-
+<br>
 
 '''using these hsv values you can filter out the excess 
     information to determine at what values u can filter out 
