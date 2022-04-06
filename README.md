@@ -26,39 +26,40 @@ report which keys have been pressed. A number,
 ## Mirroring camera
 ![image](https://user-images.githubusercontent.com/67780238/161907834-a9b1af44-0cce-468b-8305-02c2ba4eb583.png) 
 <br>
-#rgb to hsv <br>
+## RGB to HSV <br>
 ![image](https://user-images.githubusercontent.com/67780238/161907916-b4d646b6-f135-4a5a-8097-eb0f7c446a16.png)
 <br>
-
-'''using these hsv values you can filter out the excess 
-    information to determine at what values u can filter out 
-    the excessive information'''
+Using these hsv values you can filter out the excess information to determine at what values u can filter out the excessive information
     
 ![image](https://user-images.githubusercontent.com/67780238/161908013-f7fd3572-cfc4-49c3-85c8-e2b00a4b7f62.png)
 
 ![image](https://user-images.githubusercontent.com/67780238/161908192-1dea49d8-6f1c-46c9-8768-fb1d03833953.png)
 
 
-#Gaussian Blurring
-https://docs.opencv.org/3.4/d4/d13/tutorial_py_filtering.html
+## Gaussian Blurring
+**Source**: https://docs.opencv.org/3.4/d4/d13/tutorial_py_filtering.html
 
 ![image](https://user-images.githubusercontent.com/67780238/161908409-68d5ce48-682c-417d-9422-e3362f4e7b34.png)
+<br>
 ![image](https://user-images.githubusercontent.com/67780238/161908445-5d993f6b-e2b9-4ad0-b048-f8b58ffb14fc.png)
-
+<br>
 remove noise from image (extra data that we do not need)
-#Dilation
-![image](https://user-images.githubusercontent.com/67780238/161908534-bdd4bb79-ca03-41e0-a271-eacf0fab4a52.png)
-
-
-first erodes the image and then dilates it morph close dilates the image and then erodes it what is meant by dilation and erosion let us check this
-link out here https://docs.google.com/document/d/1N66HRqW84DeWADsCFEmZFbXygHbYH-yxEC8WIuge4kc/edit#
+<br>
+## Dilation
+<br>
+We expand the image. It adds the number of pixels to the boundaries of objects in an image. The structuring element controls it. The structuring element is a matrix of 1's and 0's. <br>
+<br>
+First erodes the image and then dilates it morph close dilates the image and then erodes it what is meant by dilation and erosion let us check this
+**link out here** **https://docs.google.com/document/d/1N66HRqW84DeWADsCFEmZFbXygHbYH-yxEC8WIuge4kc/edit#** <br>
 this java d point uh article explains it very well filtering out excessive information and then erosion is the reverse of dilation what dilation does is it calculates the uh maximum value of pixels in a neighborhood and then switches the pixels 
+<br>
 
-
-#Find contours 
- find contours method
+##Find contours 
+**Find contours method**
 will look in this area for the colors, draw a boundary and return,all the points on the boundary 
+<br>
 ![image](https://user-images.githubusercontent.com/67780238/161908742-b556073b-f8c8-48d7-a29e-69b70d45251a.png)
+<br>
 ![image](https://user-images.githubusercontent.com/67780238/161908789-c7b81e28-e601-4c61-ad46-5b4d6e78d095.png)
 
 
