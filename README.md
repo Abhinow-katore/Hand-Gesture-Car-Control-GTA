@@ -50,7 +50,7 @@ remove noise from image (extra data that we do not need)
 We expand the image. It adds the number of pixels to the boundaries of objects in an image. The structuring element controls it. The structuring element is a matrix of 1's and 0's. <br>
 <br>
 First erodes the image and then dilates it morph close dilates the image and then erodes it what is meant by dilation and erosion let us check this <br>
-**link out here** <br>
+### link out here <br>
 https://docs.google.com/document/d/1N66HRqW84DeWADsCFEmZFbXygHbYH-yxEC8WIuge4kc/edit# <br>
 **This java** point article explains it very well filtering out excessive information and then erosion is the reverse of dilation what dilation does is it calculates the maximum value of pixels in a neighborhood and then switches the pixels 
 <br>
