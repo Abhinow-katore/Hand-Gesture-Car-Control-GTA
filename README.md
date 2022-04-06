@@ -1,4 +1,4 @@
-# **OPCRSN** - 
+# **OPCRSN** - by Abhinav
 ### Open-Convert-Remove-Search-Navigate
 <a2 ><b>Open</b></a2> - Cv capture the image/stream. <br>
 <b>Convert</b> - rgb to hsv, color_ extract one colour that we need (hue saturation value)<br>
