@@ -1,5 +1,5 @@
 # Hand-Gesture-Car-Control-GTA
-#RUN tutorial.py
+#RUN tutorial.py <br>
  Step 1. Capturing the image.
  Step 2. Convert rgb to hsv.
  Step 3. Gaussian blur to the hsv converted image.
